@@ -5,7 +5,6 @@
 
 #include <stdio.h>
 
-// Função para verificar se um número é primo
 int ehprimo(int n) {
     if (n < 2) return 0;
     for (int i = 2; i * i <= n; i++) {
@@ -14,7 +13,6 @@ int ehprimo(int n) {
     return 1;
 }
 
-// Função para verificar se um número é par
 int ehpar(int n) {
     return n % 2 == 0;
 }
