@@ -1,5 +1,5 @@
 # Questões para estudo
-[Solucionário](resolucao/res_0nav.md)
+[Solucionário](/resolucao/res_0nav.md)
 ### Revisão AED I
 
 <details>
