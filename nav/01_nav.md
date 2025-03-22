@@ -13,6 +13,7 @@ Elabore um programa que leia uma sequência de números, e:
 
 </details>
 
+
 <details>
   <summary> 01.2 - Problema com sequência de números usando recursão e axiomas </summary>
 
