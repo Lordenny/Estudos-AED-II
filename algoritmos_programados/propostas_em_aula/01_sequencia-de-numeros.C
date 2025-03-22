@@ -1,7 +1,7 @@
-//  Elabore um programa que leia uma sequência de números, e:
-//1) se a quantidade de numeros lidos for uma numero primo calcule e exiba a media dos valores obtidos
-//2) senão, se a quantidade for par, apresente o maior numero lido; ou se for impar, apresenta o menor
-//   lido
+// Elabore um programa que leia uma sequência de números, e:
+// 1)se a quantidade de numeros lidos for uma numero primo calcule e exiba a media dos valores obtidos
+// 2)senão, se a quantidade for par, apresente o maior numero lido; ou se for impar, apresenta o menor
+// lido
 
 #include <stdio.h>
 
@@ -34,7 +34,7 @@ int main() {
         scanf("%d", &num);
 
         if (quantidade == 0) {
-            maior = menor = num;  // Primeiro número define maior e menor
+            maior = menor = num;
         } else {
             if (num > maior) maior = num;
             if (num < menor) menor = num;

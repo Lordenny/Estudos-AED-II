@@ -1,0 +1,1 @@
+// Dado uma lista, pegue o maior, o menor e o meio (próximo a metade dos valor maior)
