@@ -91,14 +91,6 @@ Verificando se `121` é divisível por `11`:
 
 Esta função verifica divisibilidade de um número por qualquer divisor primo.
 
-#### Exemplo:
-```cpp
-int div_geral(int num, int divisor) {
-    return (num % divisor == 0);
-}
-```
-Essa abordagem é mais genérica e eficiente para verificar a divisibilidade de um número.
-
 ---
 
 ## Conclusão
