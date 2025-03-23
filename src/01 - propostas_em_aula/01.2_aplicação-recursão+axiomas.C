@@ -3,7 +3,8 @@
 // 2)senão, se a quantidade for par, apresente o maior numero lido; ou se for impar, apresenta o menor
 // lido
 // OBS:. A resolução será recursiva utilizando os axiomas de divisibilidade ao invés de iterações com cálculos
-//       Foi testado até quantidade 100000000000000001
+
+
 #include <stdio.h>
 
 // Função que retorna o último algarismo de um número
@@ -19,9 +20,11 @@ int div_3(int num) {
 
 // Função para verificar divisibilidade por 7 (método recursivo baseado em 2x último dígito)
 int div_7(int num) {
+    if (num < 0) num = -num;  // Transforma em positivo
     if (num < 10) return (num == 0 || num == 7);
     return div_7((num / 10) - 2 * (num % 10));
 }
+
 
 // Função para verificar divisibilidade por 11 (diferença entre soma de índices pares e ímpares)
 int div_11(int num) {
@@ -30,18 +33,18 @@ int div_11(int num) {
 }
 
 // Função genérica para verificar divisibilidade por números primos > 5 (div_13, div_17, etc.)
-int div_generic(int num, int divisor) {
-    if (num < divisor) return (num == 0);
-    return div_generic((num / 10) - (num % 10) * (divisor % 10), divisor);
+int div_geral(int num, int divisor) {
+    return (num % divisor == 0);
 }
+
 
 // Função que verifica se um número é primo de forma recursiva usando axiomas de divisibilidade
 int ehprimo(int n) {
     if (n < 2) return 0;
     if (n == 2 || n == 3 || n == 5 || n == 7) return 1;
     if (n % 2 == 0 || div_3(n) || ultimo_alg(n) == 5 || div_7(n) || div_11(n) ||
-        div_generic(n, 13) || div_generic(n, 17) || div_generic(n, 19) ||
-        div_generic(n, 23) || div_generic(n, 29) || div_generic(n, 31)) {
+        div_geral(n, 13) || div_geral(n, 17) || div_geral(n, 19) ||
+        div_geral(n, 23) || div_geral(n, 29) || div_geral(n, 31)) {
         return 0;
     }
     return 1;
