@@ -1,6 +1,6 @@
 # 01.1 - Resolução
 
-> [Código](src/01-propostas_em_aula/01.1_sequencia-de-numeros.C)
+> [Código](/src/01-propostas_em_aula/01.1_sequencia-de-numeros.C)
 
 O problema nos exige alguns conhecimentos (provavelmente) adquiridos em AED I, então vamos direto para a main. Conforme inserirmos os numeros precisaremos de um contador `quantidade`que diz pra gente quantos números teremos, além de algumas variáveis de valores inteiros(maior, menor, total).
 

@@ -1,6 +1,6 @@
 # 01.2 - Resolução
 
-> [Código](src/01-propostas_em_aula/01.2_aplicação-recursão+axiomas.C)
+> [Código](/src/01-propostas_em_aula/01.2_aplicação-recursão+axiomas.C)
 
 Apesar da questão ser a mesma, a solução adotada aqui é bem diferente. Caso deseje, você pode tentar outra abordagem, mas esta foi a minha solução.
 
