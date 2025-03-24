@@ -10,5 +10,3 @@ Aqui temos diferentes exercícios de variadas fontes e em diferentes linguagens 
 ---
 [Conteúdo]()
 ---
-[Solucionário](nav/res_0nav.md)
----

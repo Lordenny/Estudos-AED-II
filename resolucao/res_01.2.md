@@ -1,6 +1,6 @@
 # 01.2 - Resolução
 
-> Testado com valores até 100000000000000001
+> [Código](src/01-propostas_em_aula/01.2_aplicação-recursão+axiomas.C)
 
 Apesar da questão ser a mesma, a solução adotada aqui é bem diferente. Caso deseje, você pode tentar outra abordagem, mas esta foi a minha solução.
 
@@ -93,7 +93,4 @@ Esta função verifica divisibilidade de um número por qualquer divisor primo.
 
 ---
 
-## Conclusão
-
-Este código utiliza recursão para verificar a divisibilidade de números por diferentes primos de forma otimizada. Ele também inclui uma abordagem geral (`div_geral`) que permite verificar a divisibilidade de qualquer número sem precisar de regras específicas para cada caso. A documentação foi organizada para facilitar a compreensão e futura manutenção do código.
-
+> Testado com valores até 100000000000000001
