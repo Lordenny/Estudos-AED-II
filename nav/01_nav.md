@@ -47,7 +47,7 @@ Elabore um programa que leia uma sequência de números, e:
 Faça um programa que defina se um número é divisível por 11
 
 
-[Resposta](/src/02-ideias_de_problemas/02.1_divisibilidade-por-11.C)
+[Resposta](/resolucao/res_02.1.md)
 
 ---
 
@@ -62,7 +62,7 @@ Faça um programa que defina se um número é divisível por 11
 Dado uma lista, pegue o maior, o menor e o meio (próximo a metade dos valor maior)
 
 
-[Resposta](/src/02-ideias_de_problemas/02.2_pegando-da-lista.C)
+[Resposta](/resolucao/res_02.2.md)
 
 ---
 
