@@ -1,6 +1,6 @@
 # 02.1 - Resolução
 
-> [Código](/src/02-ideias_de-problemas/02.1_divisibilidade-por-11.C)
+> [Código](/src/02-ideias_de_problemas/02.1_divisibilidade-por-11.C)
 
 Vamos lá, para sabermos se um número é divisível por 11 usamos uma propriedade matemática:
 > A soma dos dígitos nas posições ímpares e a soma dos dígitos nas posições pares, quando subtraídas, deve ser múltiplo de 11 ou zero.
