@@ -13,7 +13,7 @@ Elabore um programa que leia uma sequência de números, e:
 - lido
 
 
-- [Resposta](/resolucao/res_01.1.md)
+[Resposta](/resolucao/res_01.1.md)
 
 ---
 
@@ -32,7 +32,7 @@ Elabore um programa que leia uma sequência de números, e:
 > A resolução será recursiva utilizando os axiomas de divisibilidade ao invés de iterações com cálculos
 
  
- - [Resposta](/resolucao/res_01.2.md)
+[Resposta](/resolucao/res_01.2.md)
 
 ---
 
@@ -46,7 +46,8 @@ Elabore um programa que leia uma sequência de números, e:
 
 Faça um programa que defina se um número é divisível por 11
 
-- [Resposta](src/02-ideias_de_problemas/02.1_divisibilidade-por-11.C)
+
+[Resposta](/src/02-ideias_de_problemas/02.1_divisibilidade-por-11.C)
 
 ---
 
@@ -60,7 +61,8 @@ Faça um programa que defina se um número é divisível por 11
 
 Dado uma lista, pegue o maior, o menor e o meio (próximo a metade dos valor maior)
 
-- [Resposta](src/02-ideias_de_problemas/02.2_pegando-da-lista.C)
+
+[Resposta](/src/02-ideias_de_problemas/02.2_pegando-da-lista.C)
 
 ---
 
